@@ -1,0 +1,99 @@
+body {
+	background: #FFF;
+}
+.header {
+	margin-top: 15px;
+}
+.row {
+	
+	padding: 10px 0px;
+	border-bottom: 1px solid #eee;
+	margin: 10px 0px;
+
+	&:last-child {
+		border: 0px;
+	}	
+}
+#logo {
+	height: 35px;
+	display: inline;
+	float: left;
+	padding: 5px 0px;
+	margin: 0px;
+}
+.header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;	
+	margin-bottom: 10px;
+
+	ul.nav li a {
+		cursor: pointer;
+	}
+}
+
+#main-info-container {
+	display: none;
+
+	.main-info {
+		display: none;
+	}
+}
+
+.feed {
+
+	#display {
+		width: 100%;
+		height: 150px;
+		padding: 10px 0px;
+		overflow: hidden;
+	}
+	#form {
+		padding: 5px 0px;
+		height: 40px;
+	}
+
+	.message {
+		border-bottom: 1px solid #eee;
+		padding: 5px 0px;
+
+		.message-text {
+			padding: 2px 0px;
+
+			.glyphicon-check {
+				color: #21A310;
+			}
+			.glyphicon-warning-sign {
+				color: #FFE100;
+			}
+			.glyphicon-remove {
+				color: #DD1B1B;
+			}
+
+		}
+
+		.message-date {
+			font-size: 0.8em;
+			text-align: right;
+		}
+
+		.message-delete {
+		cursor: pointer;
+		}
+
+		.flag-0 {
+			color: #333333;
+			background-color: #FFFFFF;
+		}
+
+		.flag-1 {
+			
+		}
+
+	}
+
+
+}
+
+.login-form {
+	margin-top: 10%;
+}
