@@ -12,7 +12,7 @@
 	<button type="button" class="btn btn-default dropdown-toggle" id="dropdown-button" data-toggle="dropdown">
 	    No Flag <span class="caret"></span>
 	</button>
-	<ul class="dropdown-menu">
+	<ul class="dropdown-menu" id="flags-dropdown">
 	  <li><a href="#" data-flag="0">No Flag</a></li>
 	  <li><a href="#" data-flag="1">Success</a></li>
 	  <li><a href="#" data-flag="2">Warning</a></li>
