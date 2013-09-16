@@ -1,0 +1,32 @@
+TODO:
+
+FRONTEND:
+
+== MAIN MESSAGE
+- update / OK
+
+BACKEND:
+
+== FASTLY
+- 2 objects in response / Unknown
+- time of creation / Should be included
+
+== NAGIOS
+- get real data / OK
+- apache & thumbnnailer / OK
+- numeric statuses / waiting
+- clusters / OK
+
+== CHAT
+- Mech function / waiting
+
+== PINGDOM
+- average uptime / OK
+
+== CACHE
+- just do it / OK
+
+== ERRORS
+- handling
+
+== CURRENT ==

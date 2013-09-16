@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://localhost/wikia/status/',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'Ee1ls8ixDeCqE6bhAZ7FcdHPLreWjVwt',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -113,6 +113,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider',
+		'Basset\BassetServiceProvider'
 
 	),
 
@@ -178,6 +180,7 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'Basset'		  => 'Basset\Facade',
 
 	),
 

@@ -1,0 +1,743 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"nagios",
+				"nagios"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"check",
+				"checkPingdom"
+			],
+			[
+				"servi",
+				"servicesUp"
+			],
+			[
+				"th",
+				"thrownError"
+			],
+			[
+				"aja",
+				"ajaxOptions"
+			],
+			[
+				"fU",
+				"fUptimeMuppet"
+			],
+			[
+				"oM",
+				"oMuppetSummary"
+			],
+			[
+				"res",
+				"resp2"
+			],
+			[
+				"js",
+				"json_decode"
+			],
+			[
+				"ob",
+				"obj"
+			],
+			[
+				"curl_inf",
+				"curl_getinfo"
+			],
+			[
+				"iC",
+				"iClustersErrorsCount"
+			],
+			[
+				"iCl",
+				"iClustersErrorsCount"
+			],
+			[
+				"cl",
+				"clustersErrorsCount"
+			],
+			[
+				"p",
+				"plugin_output"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"c",
+				"clusters_regexp"
+			],
+			[
+				"ser",
+				"service_description"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"text-",
+				"text-success"
+			],
+			[
+				"chec",
+				"checkNagios"
+			],
+			[
+				"response",
+				"response"
+			],
+			[
+				"creat",
+				"created_at"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"sO",
+				"sOutFile"
+			],
+			[
+				"friendlyerror",
+				"friendlyerrorpages"
+			],
+			[
+				"frie",
+				"friendlyerrorpages"
+			],
+			[
+				"frien",
+				"friendlyerrorpages-specialpage-click"
+			],
+			[
+				"friendly",
+				"friendlyerrorpages"
+			],
+			[
+				"F",
+				"FriendlyErrorPages"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"trigger",
+				"triggerStatus"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"get_de",
+				"get_defined_constants"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"err",
+				"error_handle"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"style",
+				"stylesheet_url"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"entry",
+				"entry-content"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "from-author.md",
+			"settings":
+			{
+				"buffer_size": 22,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "readme.md",
+			"settings":
+			{
+				"buffer_size": 1795,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gene",
+				"Laravel Generate: Migration"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: Up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: U",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/wikia/status/app/views/templates/feed-auth.blade.php",
+		"/C/wamp/www/wikia/status/app/controllers/ApiController.php",
+		"/C/wamp/www/wikia/status/public/builds/jquery/js/scripts-5f18eba014330805026140f546c74844.js",
+		"/C/wamp/www/wikia/status/app/views/templates/status.blade.php",
+		"/C/wamp/www/wikia/status/public/scss/status.scss",
+		"/C/wamp/www/wikia/status/app/views/layouts/master.blade.php",
+		"/C/wamp/www/wikia/status/app/models/Message.php",
+		"/C/wamp/www/wikia/status/app/controllers/MessageController.php",
+		"/C/wamp/www/wikia/status/app/views/templates/message.blade.php",
+		"/C/wamp/www/wikia/status/app/views/templates/feed-form.blade.php",
+		"/C/wamp/www/wikia/status/app/views/templates/login.blade.php",
+		"/C/wamp/www/wikia/status/app/routes.php",
+		"/C/wamp/www/wikia/status/app/start/global.php",
+		"/C/wamp/www/wikia/status/app/views/templates/feed.blade.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/contact.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/archive-mioty.php",
+		"/C/wamp/www/wikia/status/app/controllers/HomeController.php",
+		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php",
+		"/C/wamp/www/wikia/status/app/config/auth.php",
+		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
+		"/C/wamp/www/wikia/status/public/css/bootstrap-glyphicons.css",
+		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_145613_create_users_table.php",
+		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_133522_update_messages_table.php",
+		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_145812_add_users.php",
+		"/C/wamp/www/wikia/status/public/js/scripts.js",
+		"/C/wamp/www/wikia/status/vendor/nesbot/carbon/Carbon/Carbon.php",
+		"/C/wamp/www/wikia/status/app/database/migrations/2013_07_31_192146_create_messages_table.php",
+		"/C/wamp/www/wikia/status/app/database/migrations/2013_07_31_192751_add_messages.php",
+		"/C/wamp/www/wikia/status/app/config/database.php",
+		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php",
+		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Support/Facades/HTML.php",
+		"/C/wamp/www/wikia/status/vendor/symfony/dom-crawler/Symfony/Component/DomCrawler/Form.php",
+		"/C/wamp/www/wikia/status/app/controllers/Message.php",
+		"/C/wamp/www/wikia/status/vendor/twitter/bootstrap/less/variables.less",
+		"/C/wamp/www/wikia/status/public/builds/main/54ac4a59f0b5d31c2723c1a873b91a98/bootstrap-dcff9138377aafae3b4a1e7ae121b2b2.css",
+		"/C/wamp/www/wikia/status/vendor/twitter/bootstrap/less/bootstrap.less",
+		"/C/wamp/www/wikia/status/public/builds/page/54ac4a59f0b5d31c2723c1a873b91a98/bootstrap-dcff9138377aafae3b4a1e7ae121b2b2.css",
+		"/C/wamp/www/wikia/status/public/css/status.css",
+		"/C/wamp/www/wikia/status/app/config/app.php",
+		"/C/wamp/www/wikia/status/composer.json",
+		"/C/wamp/www/wikia/status/app/views/layouts/master.php",
+		"/C/wamp/www/wikia/status/app/views/status.blade.php",
+		"/C/wamp/www/wikia/status/app/views/master.php",
+		"/C/wamp/www/wikia/app/maintenance/rebuildLocalisationCache.php",
+		"/C/wamp/www/wikia/app/maintenance/Maintenance.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.alias.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/templates/errorpage.html",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/templates/500.html",
+		"/C/Users/troophel/Desktop/www.lnk",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.php",
+		"/C/wamp/www/wikia/app/includes/Title.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.class.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/SpecialFriendlyErrorPages.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.i18n.php",
+		"/C/wamp/www/wikia/app/index.php",
+		"/C/wamp/www/wikia/app/extensions/wikia/Development/Configs_DevBox/LocalSettings.php",
+		"/C/wamp/www/wikia/app/sftp-config.json",
+		"/C/wamp/www/wikia/app/extensions/wikia/FriendlyErrorPages/README.md",
+		"/C/wamp/www/wikia/app/wikia-app.sublime-project",
+		"/C/wamp/www/tests/error/msg/503.html",
+		"/C/wamp/www/tests/error/msg/405.html",
+		"/C/wamp/www/tests/error/msg/500.html",
+		"/C/wamp/www/tests/error/error.php",
+		"/C/wamp/www/tests/error/msg/404.html",
+		"/C/Users/troophel/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/wamp/www/tests/error/index.php",
+		"/C/wamp/bin/php/php5.4.3/php.ini",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/globals.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/classes.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/wamp/www/tests/error/500.php",
+		"/C/wamp/bin/apache/apache2.2.22/conf/wampserver.conf",
+		"/C/wamp/www/sites/.htaccess",
+		"/C/wamp/www/.htaccess.txt",
+		"/C/wamp/www/.htaccess",
+		"/C/wamp/bin/apache/apache2.2.22/conf/httpd.conf",
+		"/C/wamp/www/tests/error/403.php",
+		"/C/wamp/www/tests/error/404.php",
+		"/C/wamp/www/tests/error/msg/500_msg.php",
+		"/C/wamp/bin/apache/apache2.2.22/error/HTTP_BAD_GATEWAY.html.var",
+		"/C/wamp/www/wikia/app-dev/extensions/Editcount/Editcount_body.php",
+		"/C/wamp/www/wikia/app-dev/sftp-config.json",
+		"/C/Users/troophel/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/wikia-dev-box",
+		"/C/wamp/www/tests/SASS/index.php",
+		"/C/wamp/www/tests/SASS/scss/style.scss",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/wp-config-sample.php",
+		"/C/Users/troophel/AppData/Roaming/Sublime Text 2/Packages/SASS/Syntaxes/SASS.tmLanguage",
+		"/C/wamp/www/tests/SASS/css/style.css",
+		"/C/wamp/www/tests/scss/index.php",
+		"/C/wamp/www/tests/scss/scss/style.scss",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/gallery-150.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/archive-naszepsy.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/single-mioty.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/album-galeria.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/page-galeria.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/single-szczenieta.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/wamp/www/sites/OW/wp-content/plugins/nextgen-gallery/view/album-galeria.php",
+		"/C/wamp/www/sites/OW/wp-content/plugins/nextgen-gallery/view/gallery-150-title.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/css/main.css",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/single-mioty.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/single-szczenieta.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/archive-naszepsy.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/functions.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/mysqldata.php",
+		"/C/wamp/www/sites/OW/wp-content/plugins/nextgen-gallery/view/gallery-150.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/page-galeria.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/archive-szczenieta.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/footer.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/header.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/index.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/page.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/single-naszepsy.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/archive-mioty.php",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/js/plugins.js",
+		"/C/wamp/www/sites/OW/wp-content/themes/odszukacwiatr/style.css",
+		"/C/Users/troophel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/functions.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/no-results.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/index.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/footer.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/content-page.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/page.php",
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/page-galeria.php",
+		"/C/wamp/www/sites/Colorado/classes.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"check",
+			"cssClasses",
+			"alert",
+			"Muppet",
+			"clustersErrorsCount",
+			"service_description",
+			"service_name",
+			"host_name",
+			"service_name",
+			"fastly",
+			"</p>",
+			"<p>",
+			"id",
+			"id=\"dropdown-1\"",
+			"format",
+			"open",
+			"Y-m-d H:m:s",
+			"'created_at' => date('Y-m-d H:m:s'),",
+			"open",
+			"button",
+			"h2",
+			"contain",
+			"bootstrap",
+			"</p>",
+			"<p>",
+			"plain",
+			"parse",
+			"mOpt",
+			"We are sorry",
+			";",
+			"500",
+			"header",
+			"explanation",
+			"myextension",
+			"MyExtension",
+			");",
+			"y Ext",
+			"Extension",
+			"My Extension",
+			"MyExtension",
+			"myextension",
+			"MyExtension",
+			";\n",
+			"prepend",
+			"if",
+			"error",
+			"  \n",
+			"OW",
+			"Search",
+			"align",
+			"2",
+			"color",
+			"000",
+			"get_header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "from-author.md",
+					"settings":
+					{
+						"buffer_size": 22,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "readme.md",
+					"settings":
+					{
+						"buffer_size": 1795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 96.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"htmlb",
+				"vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php"
+			],
+			[
+				"home",
+				"app/controllers/HomeController.php"
+			],
+			[
+				"glyph",
+				"public/css/bootstrap-glyphicons.css"
+			],
+			[
+				"glyp",
+				"public/css/bootstrap-glyphicons.css"
+			],
+			[
+				"carbon",
+				"vendor/nesbot/carbon/Carbon/Carbon.php"
+			],
+			[
+				"form",
+				"vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"html",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/HTML.php"
+			],
+			[
+				"variabl",
+				"vendor/twitter/bootstrap/less/variables.less"
+			],
+			[
+				"bootstra",
+				"vendor/twitter/bootstrap/less/bootstrap.less"
+			],
+			[
+				"rebuild",
+				"app/maintenance/rebuildLocalisationCache.php"
+			],
+			[
+				"messa",
+				"app/includes/Message.php"
+			],
+			[
+				"mustachese",
+				"app/includes/wikia/services/MustacheService.class.php"
+			],
+			[
+				"rebuildl",
+				"app/maintenance/rebuildLocalisationCache.php"
+			],
+			[
+				"friendl",
+				"app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.php"
+			],
+			[
+				"friendly",
+				"app/extensions/wikia/FriendlyErrorPages/SpecialFriendlyErrorPages.php"
+			],
+			[
+				"friend",
+				"app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.class.php"
+			],
+			[
+				"500.",
+				"app/extensions/wikia/FriendlyErrorPages/templates/500.html"
+			],
+			[
+				"title",
+				"app/includes/Title.php"
+			],
+			[
+				"index",
+				"app/index.php"
+			],
+			[
+				"locals",
+				"app/extensions/wikia/Development/Configs_DevBox/LocalSettings.php"
+			],
+			[
+				"frien",
+				"app/extensions/wikia/FriendlyErrorPages/FriendlyErrorPages.class.php"
+			],
+			[
+				"prep",
+				"app/extensions/wikia/FriendlyErrorPages/prepend.php"
+			],
+			[
+				"prepend",
+				"app/extensions/wikia/FriendlyErrorPages/prepend.php"
+			],
+			[
+				"",
+				"msg/500.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 336.0,
+	"status_bar_visible": true
+}

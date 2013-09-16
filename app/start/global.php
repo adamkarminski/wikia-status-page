@@ -81,3 +81,39 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Create Basset collection
+|--------------------------------------------------------------------------
+|
+| Creation of Bootstrap files collection.
+|
+*/
+
+Basset::collection('bootstrap-css', function($collection)
+	{
+	    // Collection definition.
+	    $collection->add('../vendor/twitter/bootstrap/less/bootstrap.less');
+	    
+	})->apply('Less');
+
+Basset::collection('bootstrap-js', function($collection)
+	{
+	    // Collection definition.
+	    $collection->add('../vendor/twitter/bootstrap/dist/js/bootstrap.min.js');
+	    
+	});
+
+Basset::collection('jquery', function($collection)
+	{
+		$collection->add('../vendor/twitter/bootstrap/assets/js/jquery.js');
+	});
+
+Basset::collection('status', function($collection)
+	{
+		$collection->add('../public/js/scripts.js');
+		$collection->add('../public/css/status.css');
+		$collection->add('../public/css/bootstrap-glyphicons.css');
+	}
+	);

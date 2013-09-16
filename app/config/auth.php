@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => 'eloquent',
+	'driver' => 'database',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -56,7 +56,7 @@ return array(
 
 	'reminder' => array(
 
-		'email' => 'emails.auth.reminder',
+		'username' => 'username',
 
 		'table' => 'password_reminders',
 

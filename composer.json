@@ -3,7 +3,11 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+		"way/generators": "1.0.*@dev",
+		"twitter/bootstrap": "dev-3.0.0-wip",
+        "jasonlewis/basset": "4.0.*@dev",
+        "leafo/lessphp": "v0.3.9"
 	},
 	"autoload": {
 		"classmap": [

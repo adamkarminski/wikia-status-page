@@ -2,6 +2,8 @@
 
 class HomeController extends BaseController {
 
+	protected $layout = 'layouts.master';
+ 
 	/*
 	|--------------------------------------------------------------------------
 	| Default Home Controller
@@ -15,9 +17,11 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function index()
 	{
-		return View::make('hello');
+		// $this->layout->content = View::make('templates.status');
+		return View::make('templates.status')
+			->with('title', 'Status Page');
 	}
 
 }
