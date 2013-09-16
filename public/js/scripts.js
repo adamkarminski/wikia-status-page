@@ -82,6 +82,8 @@ $(document).ready(function() {
 		var iWarnings = 0, iErrors = 0, iClusters = 0, iClustersDown = 0;
 		$.each ( resp, function ( key, object ) {
 
+			// Parse Nagios JSON response
+
 			reOK = new RegExp('OK:');
 			reDBCluster = new RegExp('Cluster[0-9]+');
 
@@ -112,6 +114,8 @@ $(document).ready(function() {
 
 		});
 
+		// Check how many DB Clusters are down
+
 		if ( iClustersDown > 0 ) {
 			if ( iClustersDown == iClusters ) {
 				showNagiosStats( 'DB_Clusters', "Down" );
@@ -124,6 +128,8 @@ $(document).ready(function() {
 			showNagiosStats( 'DB_Clusters', "OK" );
 		}
 		
+		// Show appropriate main info
+
 		$( "div#main-info-container" ).show();
 
 		if ( iErrors > 0 ) {
@@ -136,6 +142,9 @@ $(document).ready(function() {
 
 	})
 	.error {
+
+		// If error - show all stats as "Not available"
+
 		aServices = [ 'Apache_Cluster', 'Thumbnailers_Cluster', 'DB_Clusters' ];
 		$.each( aServices, function ( key, service ) {
 			showNagiosStats( sService, 'Not available' );
