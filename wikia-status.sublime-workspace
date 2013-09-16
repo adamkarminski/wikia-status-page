@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"aM",
+				"aMessageFlags"
+			],
+			[
 				"nagios",
 				"nagios"
 			],
@@ -215,16 +219,24 @@
 			"file": "from-author.md",
 			"settings":
 			{
-				"buffer_size": 22,
+				"buffer_size": 785,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "readme.md",
+			"file": "public/js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 1795,
-				"line_ending": "Windows"
+				"buffer_size": 1156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/ApiController.php",
+			"settings":
+			{
+				"buffer_size": 4042,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -300,19 +312,27 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/wikia/status/app/controllers/MessageController.php",
+		"/C/wamp/www/wikia/status/readme.md",
+		"/C/wamp/www/wikia/status/app/views/templates/feed-form.blade.php",
+		"/C/wamp/www/wikia/status/public/js/jquery.js",
+		"/C/wamp/www/wikia/status/app/start/global.php",
+		"/C/wamp/www/wikia/status/public/css/bootstrap-glyphicons.css",
+		"/C/wamp/www/wikia/status/app/views/layouts/master.blade.php",
+		"/C/wamp/www/wikia/status/public/config.rb",
+		"/C/wamp/www/wikia/status/app/config/packages/jasonlewis/basset/config.php",
+		"/C/wamp/www/wikia/status/composer.json",
+		"/C/wamp/www/wikia/status/public/js/scripts.js",
+		"/C/wamp/www/wikia/status/public/builds/jquery/cac5946acee33cf8ef0a9916644c6fb6/jquery-a910ffa2b3d6073aaeca950a6343ecd6.js",
+		"/C/wamp/www/wikia/status/public/builds/jquery/js/scripts-5f18eba014330805026140f546c74844.js",
 		"/C/wamp/www/wikia/status/app/views/templates/feed-auth.blade.php",
 		"/C/wamp/www/wikia/status/app/controllers/ApiController.php",
-		"/C/wamp/www/wikia/status/public/builds/jquery/js/scripts-5f18eba014330805026140f546c74844.js",
 		"/C/wamp/www/wikia/status/app/views/templates/status.blade.php",
 		"/C/wamp/www/wikia/status/public/scss/status.scss",
-		"/C/wamp/www/wikia/status/app/views/layouts/master.blade.php",
 		"/C/wamp/www/wikia/status/app/models/Message.php",
-		"/C/wamp/www/wikia/status/app/controllers/MessageController.php",
 		"/C/wamp/www/wikia/status/app/views/templates/message.blade.php",
-		"/C/wamp/www/wikia/status/app/views/templates/feed-form.blade.php",
 		"/C/wamp/www/wikia/status/app/views/templates/login.blade.php",
 		"/C/wamp/www/wikia/status/app/routes.php",
-		"/C/wamp/www/wikia/status/app/start/global.php",
 		"/C/wamp/www/wikia/status/app/views/templates/feed.blade.php",
 		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/contact.php",
 		"/C/Users/troophel/AppData/Local/Temp/fz3temp-1/archive-mioty.php",
@@ -320,11 +340,9 @@
 		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Html/HtmlBuilder.php",
 		"/C/wamp/www/wikia/status/app/config/auth.php",
 		"/C/wamp/www/wikia/status/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php",
-		"/C/wamp/www/wikia/status/public/css/bootstrap-glyphicons.css",
 		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_145613_create_users_table.php",
 		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_133522_update_messages_table.php",
 		"/C/wamp/www/wikia/status/app/database/migrations/2013_08_01_145812_add_users.php",
-		"/C/wamp/www/wikia/status/public/js/scripts.js",
 		"/C/wamp/www/wikia/status/vendor/nesbot/carbon/Carbon/Carbon.php",
 		"/C/wamp/www/wikia/status/app/database/migrations/2013_07_31_192146_create_messages_table.php",
 		"/C/wamp/www/wikia/status/app/database/migrations/2013_07_31_192751_add_messages.php",
@@ -339,7 +357,6 @@
 		"/C/wamp/www/wikia/status/public/builds/page/54ac4a59f0b5d31c2723c1a873b91a98/bootstrap-dcff9138377aafae3b4a1e7ae121b2b2.css",
 		"/C/wamp/www/wikia/status/public/css/status.css",
 		"/C/wamp/www/wikia/status/app/config/app.php",
-		"/C/wamp/www/wikia/status/composer.json",
 		"/C/wamp/www/wikia/status/app/views/layouts/master.php",
 		"/C/wamp/www/wikia/status/app/views/status.blade.php",
 		"/C/wamp/www/wikia/status/app/views/master.php",
@@ -422,12 +439,7 @@
 		"/C/Users/troophel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/functions.php",
 		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/no-results.php",
-		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/index.php",
-		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/footer.php",
-		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/content-page.php",
-		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/page.php",
-		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/page-galeria.php",
-		"/C/wamp/www/sites/Colorado/classes.php"
+		"/C/wamp/www/sites/wp_colorado/wp-content/themes/colorado/index.php"
 	],
 	"find":
 	{
@@ -438,6 +450,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\wamp\\www\\wikia\\status\\public\\builds\\jquery"
 		]
 	},
 	"find_state":
@@ -445,6 +458,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"min.map",
 			"check",
 			"cssClasses",
 			"alert",
@@ -516,7 +530,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -524,42 +538,15 @@
 					"file": "from-author.md",
 					"settings":
 					{
-						"buffer_size": 22,
+						"buffer_size": 785,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "readme.md",
-					"settings":
-					{
-						"buffer_size": 1795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								0
+								449,
+								449
 							]
 						],
 						"settings":
@@ -571,6 +558,65 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 1156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/ApiController.php",
+					"settings":
+					{
+						"buffer_size": 4042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

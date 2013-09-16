@@ -13,14 +13,14 @@
 	    No Flag <span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu" id="flags-dropdown">
-	  <li><a href="#" data-flag="0">No Flag</a></li>
-	  <li><a href="#" data-flag="1">Success</a></li>
-	  <li><a href="#" data-flag="2">Warning</a></li>
-	  <li><a href="#" data-flag="3">Error</a></li>
+	  <li><a data-flag="0">No Flag</a></li>
+	  <li><a data-flag="1">Success</a></li>
+	  <li><a data-flag="2">Warning</a></li>
+	  <li><a data-flag="3">Error</a></li>
 	</ul>
 	
 </span>
 <span class="col-2">
-	{{ Form::button('Send', array( 'class' => 'btn btn-primary', 'type' => 'submit' ) ) }}
+	{{ Form::button('Send', array( 'id' => 'message-submit', 'class' => 'btn btn-primary', 'type' => 'submit' ) ) }}
 </span>
 {{ Form::close() }}

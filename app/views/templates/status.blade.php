@@ -35,7 +35,7 @@
 		<div class="panel-heading">
 			<h3 class="panel-title">Servers</h3>
 		</div>
-		<table class="table" id="fastly">
+		<table class="table" id="pingdom">
 			<tr>
 				<th class="col-10">Name</th>
 				<th class="col-2">Status</th>

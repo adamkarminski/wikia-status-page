@@ -1,3 +1,5 @@
+var iWarnings = 0, iErrors = 0;
+
 $(document).ready(function() {
 
 	/*
@@ -28,12 +30,9 @@ $(document).ready(function() {
 		// Change hidden input[name=flag] value
 		$( 'input[name=flag]' ).val( iNewFlag );
 
-
 	});
 
-	
-
-	// Deletion
+	// Delete message
 
 	$( '.message-delete' ).bind( 'click', function() {
 
@@ -52,6 +51,39 @@ $(document).ready(function() {
 
 	});
 
+	/*
+	* External APIs calls
+	*/
 
+	$.when(
+
+		// Pingdom call
+
+		$.ajax({
+			type: "GET",
+			url: "http://localhost/wikia/status/public/api/pingdom",
+			dataType: "json"
+			})
+		.done( function( resp ) {
+
+			if ( resp[ 'uptime' ] == 'Not available' ) {
+				sUptimeClass = "muted";
+			} else {
+				sUptimeClass = "text-success";
+			}
+
+			$( '#pingdom-uptime' ).html( '<span class="' + sUptimeClass + '">' + resp[ 'uptime' ] + '</span>' );
+		}),
+
+		// Nagios call
+
+		$.ajax({
+			type: "GET",
+			url: "http://localhost/wikia/status/public/api/nagios"
+		})
+
+	).done(
+
+	);
 
 });
