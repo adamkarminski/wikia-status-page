@@ -40,12 +40,6 @@ class ApiController extends BaseController {
 
 	}
 
-	public function getNagiosTest()
-	{
-		$resp = '[{"host_name":"Apache_Cluster","service_description":"Special Healthcheck","last_hard_state_change":"1378522620","plugin_output":"CLUSTER OK: Apache: 30 ok, 0 warning, 0 unknown, 2 critical"},{"host_name":"Thumbnailers_Cluster","service_description":"Make Thumbnail","last_hard_state_change":"1363722477","plugin_output":"CLUSTER OK: make: 32 ok, 0 warning, 0 unknown, 0 critical"},{"host_name":"wikia","service_description":"Cluster1-MW-r\/o","last_hard_state_change":"1379034257","plugin_output":"DOWN: site is in read-write mode"},{"host_name":"wikia","service_description":"Cluster2-MW-r\/o","last_hard_state_change":"1379073674","plugin_output":"DOWN: site is in read-write mode"},{"host_name":"wikia","service_description":"Cluster3-MW-r\/o","last_hard_state_change":"1379028652","plugin_output":"DOWN: site is in read-write mode"},{"host_name":"wikia","service_description":"Cluster4-MW-r\/o","last_hard_state_change":"1379024281","plugin_output":"DOWN: site is in read-write mode"},{"host_name":"wikia","service_description":"New wikis creation","last_hard_state_change":"1373500917","plugin_output":"OK: 612 new wikis created yesterday."},{"host_name":"wikia","service_description":"Sendgrid_C1_transmitted","last_hard_state_change":"1379127744","plugin_output":"QUERY OK: \'SELECT COUNT(*) from mail WHERE (attempted + 60) < NOW() AND transmitted IS NULL\' returned 0.000000"},{"host_name":"","service_description":"","plugin_output":"","last_hard_state_change":""}]';
-		return Response::make( $resp, 200 );
-	}
-
 	public function getNagios() {
 
 		if ( Cache::has('nagios') ) {

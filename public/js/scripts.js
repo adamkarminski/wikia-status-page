@@ -75,10 +75,10 @@ $(document).ready(function() {
 
 	$.ajax({
 		type: "GET",
-		url: "http://localhost/wikia/status/public/api/nagiostest",
+		url: "http://localhost/wikia/status/public/api/nagios",
 		dataType: "json"
 	})
-	.done( function( resp ) {
+	.success( function( resp ) {
 		var iWarnings = 0, iErrors = 0, iClusters = 0, iClustersDown = 0;
 		$.each ( resp, function ( key, object ) {
 
@@ -135,6 +135,12 @@ $(document).ready(function() {
 		}
 
 	})
+	.error {
+		aServices = [ 'Apache_Cluster', 'Thumbnailers_Cluster', 'DB_Clusters' ];
+		$.each( aServices, function ( key, service ) {
+			showNagiosStats( sService, 'Not available' );
+		})
+	}
 
 });
 

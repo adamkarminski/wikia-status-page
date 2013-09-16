@@ -45,5 +45,3 @@ Route::get('/api/fastly', array('as' => 'fastly', 'uses' => 'ApiController@getFa
 Route::get('/api/nagios', array('as' => 'nagios', 'uses' => 'ApiController@getNagios'));
 Route::get('/api/pingdom', array('as' => 'pingdom', 'uses' => 'ApiController@getPingdom'));
 Route::get('/api/destroy', array('uses' => 'ApiController@destroyCache'));
-
-Route::get('/api/nagiostest', array('as' => 'nagiostest', 'uses' => 'ApiController@getNagiosTest'));
