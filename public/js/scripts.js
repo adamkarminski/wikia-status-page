@@ -1,5 +1,3 @@
-var iWarnings = 0, iErrors = 0;
-
 $(document).ready(function() {
 
 	/*
@@ -55,35 +53,102 @@ $(document).ready(function() {
 	* External APIs calls
 	*/
 
-	$.when(
+	// Pingdom call
 
-		// Pingdom call
+	$.ajax({
+		type: "GET",
+		url: "http://localhost/wikia/status/public/api/pingdom",
+		dataType: "json"
+		})
+	.done( function( resp ) {
 
-		$.ajax({
-			type: "GET",
-			url: "http://localhost/wikia/status/public/api/pingdom",
-			dataType: "json"
-			})
-		.done( function( resp ) {
+		if ( resp[ 'uptime' ] == 'Not available' ) {
+			sUptimeClass = "muted";
+		} else {
+			sUptimeClass = "text-success";
+		}
 
-			if ( resp[ 'uptime' ] == 'Not available' ) {
-				sUptimeClass = "muted";
-			} else {
-				sUptimeClass = "text-success";
+		$( '#pingdom-uptime' ).html( '<span class="' + sUptimeClass + '">' + resp[ 'uptime' ] + '</span>' );
+	}),
+
+	// Nagios call
+
+	$.ajax({
+		type: "GET",
+		url: "http://localhost/wikia/status/public/api/nagiostest",
+		dataType: "json"
+	})
+	.done( function( resp ) {
+		var iWarnings = 0, iErrors = 0, iClusters = 0, iClustersDown = 0;
+		$.each ( resp, function ( key, object ) {
+
+			reOK = new RegExp('OK:');
+			reDBCluster = new RegExp('Cluster[0-9]+');
+
+			if ( object.host_name == "Apache_Cluster" ) {
+				if ( !reOK.test( object.plugin_output ) ) {
+					++iErrors;
+					showNagiosStats( object.host_name, "Down" );
+				} else {
+					showNagiosStats( object.host_name, "OK" );
+				}
+			}
+			else if ( object.host_name == "Thumbnailers_Cluster" ) {
+				if ( !reOK.test( object.plugin_output ) ) {
+					++iWarnings;
+					showNagiosStats( object.host_name, "Down" );
+				} else {
+					showNagiosStats( object.host_name, "OK" );
+				}
+			}
+			else if ( reDBCluster.test( object.service_description ) ) {
+				if ( !reOK.test( object.plugin_output ) ) {
+					++iClustersDown;
+					++iClusters;
+				} else {
+					++iClusters;
+				}
 			}
 
-			$( '#pingdom-uptime' ).html( '<span class="' + sUptimeClass + '">' + resp[ 'uptime' ] + '</span>' );
-		}),
+		});
 
-		// Nagios call
+		if ( iClustersDown > 0 ) {
+			if ( iClustersDown == iClusters ) {
+				showNagiosStats( 'DB_Clusters', "Down" );
+				++iWarnings;
+			} else {
+				showNagiosStats( 'DB_Clusters', "Some issues" );
+				++iWarnings;
+			}
+		} else {
+			showNagiosStats( 'DB_Clusters', "OK" );
+		}
+		
+		$( "div#main-info-container" ).show();
 
-		$.ajax({
-			type: "GET",
-			url: "http://localhost/wikia/status/public/api/nagios"
-		})
+		if ( iErrors > 0 ) {
+			$( "div#main-info-danger" ).show();
+		} else if ( iWarnings > 0 ) {
+			$( "div#main-info-warning" ).show();
+		} else {
+			$( "div#main-info-success" ).show();
+		}
 
-	).done(
-
-	);
+	})
 
 });
+
+function showNagiosStats( sService, sStatus ) {
+
+	var sStatusClass = "";
+
+	if ( sStatus == "OK" ) {
+		sStatusClass = "success";
+	} else if ( sStatus == "Some issues" ) {
+		sStatusClass = "warning";
+	} else {
+		sStatusClass = "danger"
+	}
+
+	$( '#nagios-' + sService ).html( '<span class="text-' + sStatusClass + '">'+ sStatus +'</span>' );
+}
