@@ -12,7 +12,7 @@ You can find config files in ```app/config/``` and the most important ones are `
 
 ### Login
 
-Visit ```http://domain name/login```.
+Visit ```http://domain name/login``` to log in.
 
 ### Requests to external APIs
 
